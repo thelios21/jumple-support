@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JUMPLE — Support</title>
+<style>
+  :root{
+    --bg:#eaf6ff; --card:#ffffff; --ink:#1d2b3a; --muted:#5b6b7b;
+    --accent:#ff9f1c; --accent2:#2ec4b6; --line:#d7e8f5;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:linear-gradient(160deg,#eaf6ff 0%,#d4ecff 100%);
+    min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px;
+  }
+  .card{
+    width:100%; max-width:600px; background:var(--card); border:1px solid var(--line);
+    border-radius:20px; padding:36px 32px; box-shadow:0 12px 40px rgba(30,80,130,.12);
+  }
+  .logo{font-size:34px; font-weight:800; letter-spacing:.5px; color:var(--accent); margin:0 0 4px}
+  .tag{color:var(--muted); margin:0 0 28px; font-size:15px}
+  h2{font-size:17px; margin:26px 0 10px; color:var(--ink)}
+  p{line-height:1.6; color:var(--ink); margin:8px 0}
+  .faq{border-top:1px solid var(--line); padding-top:18px; margin-top:18px}
+  details{margin:10px 0; padding:12px 14px; background:#f5fbff; border:1px solid var(--line); border-radius:12px}
+  summary{cursor:pointer; font-weight:600}
+  details p{color:var(--muted); margin:10px 0 2px}
+  a{color:var(--accent2); font-weight:600; text-decoration:none}
+  a:hover{text-decoration:underline}
+  .contact{margin-top:26px; padding:18px; background:#fff7ec; border:1px solid #ffe3bd; border-radius:14px; text-align:center}
+  .contact a{color:var(--accent); font-size:18px}
+  footer{margin-top:26px; text-align:center; color:var(--muted); font-size:13px}
+  .en{color:var(--muted); font-size:13px; font-style:italic}
+</style>
+</head>
+<body>
+  <main class="card">
+    <h1 class="logo">JUMPLE !</h1>
+    <p class="tag">Centre d'assistance · Support center</p>
+
+    <p>Besoin d'aide avec JUMPLE ? Tu es au bon endroit. Pour toute question, bug ou suggestion, écris-nous — on te répond au plus vite.</p>
+    <p class="en">Need help with JUMPLE? For any question, bug or suggestion, just email us and we'll get back to you quickly.</p>
+
+    <div class="faq">
+      <h2>Questions fréquentes</h2>
+
+      <details>
+        <summary>Le jeu est-il gratuit ?</summary>
+        <p>Oui, JUMPLE est entièrement gratuit et jouable hors-ligne, sans connexion internet.</p>
+      </details>
+
+      <details>
+        <summary>J'ai trouvé un bug, comment le signaler ?</summary>
+        <p>Envoie-nous un email en décrivant le problème et ton modèle d'appareil. Ça nous aide énormément à corriger vite.</p>
+      </details>
+
+      <details>
+        <summary>Mes objets et ma progression sont-ils sauvegardés ?</summary>
+        <p>Ta progression est enregistrée localement sur ton appareil.</p>
+      </details>
+
+      <details>
+        <summary>Une idée ou une suggestion ?</summary>
+        <p>On adore les retours des joueurs ! Écris-nous, on lit tout.</p>
+      </details>
+    </div>
+
+    <div class="contact">
+      <p>Contact :</p>
+      <a href="mailto:jumple.contact@gmail.com">jumple.contact@gmail.com</a>
+    </div>
+
+    <footer>
+      © 2026 Methelios · Tous droits réservés
+    </footer>
+  </main>
+</body>
+</html>
